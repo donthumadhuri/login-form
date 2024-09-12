@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: beige;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231027/pngtree-hexagonal-abstract-background-with-a-black-textured-surface-image_13704307.png);
+    padding: 20px 300px;
+    #field{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        color: white;
+        gap: 10px;
+    }
+    button{
+        padding: 10px 40px;
+        color: rgba(110, 229, 163, 0.922)(128, 128, 128, 0.922);
+        gap: 10px;
+        border-radius: 5px;
+    }
+    #gender{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        color: white;
+    }
+}
